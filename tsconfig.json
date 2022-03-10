@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "esnext",
+    "declaration": true,
+    "declarationDir": "dist/dts",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "./dist",
+    "lib": ["es2017", "dom", "dom.iterable", "esnext"]
+  },
+  "exclude": ["dist", "node_modules", "src/**/*.test.tsx"]
+
+}
